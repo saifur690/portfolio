@@ -155,26 +155,23 @@ textarea {
 }
 
 .logo {
-    position: relative;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     width: 48px;
     height: 56px;
-    overflow: hidden;
     min-height: 44px;
     border-radius: 4px;
     transition: opacity 0.2s ease;
 }
 
-.logo img {
-    /* Frame only the ribbon symbol from the original logo artwork. */
-    position: absolute;
-    left: -20px;
-    top: -12px;
-    width: 196.4px;
-    height: auto;
-    max-width: none;
+.logo-symbol {
+    /* The SVG viewBox frames the symbol without negative positioning offsets. */
+    display: block;
+    width: 38px;
+    height: 44px;
+    overflow: hidden;
 }
 
 .logo:hover {

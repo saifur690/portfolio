@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="44" viewBox="0 0 148 44" fill="none">
+  <title>Saif</title>
+  <desc>Custom geometric SAIF lettering with a rising slash through the A.</desc>
+  <g fill="#F2F3F5">
+    <!-- S: clipped terminals and a continuous, balanced silhouette. -->
+    <path d="M33 6H12C6.5 6 3 9.5 3 15V17C3 22 6 25 11 25H24V31H3V38H25C30.5 38 34 34.5 34 29V27C34 22 31 19 26 19H13C11.5 19 11 18.5 11 17V15C11 13.5 11.5 13 13 13H27L33 6Z"/>
+    <!-- A: open counter with an independently cut diagonal crossbar. -->
+    <path d="M38 38L50 6H60L72 38H63L55 15L47 38H38Z"/>
+    <!-- I and F share the same stem weight and cut terminal. -->
+    <path d="M80 6H88V38H80Z"/>
+    <path d="M98 6H129L123 13H106V20H123L117 27H106V38H98V6Z"/>
+  </g>
+  <path d="M47 28L63 22L65 28L45 35L47 28Z" fill="#B7C7DF"/>
+  <path d="M138 6H143L131 38H126L138 6Z" fill="#B7C7DF"/>
+</svg>
